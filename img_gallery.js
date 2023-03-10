@@ -129,9 +129,6 @@ const render = () => {
   }
   document.getElementById("contain").innerHTML = music;
 };
-const next = () =>{
-
-}
 const details = (i) => {
   console.log(i);
   if(i<0){
