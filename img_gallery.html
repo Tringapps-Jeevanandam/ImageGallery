@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+  <head>
+    <title>Grid & List view</title>
+    <link rel="stylesheet" href="./img_gallery.css" />
+  </head>
+  <body onload="render()">
+    <header>
+      Muzic Gallery      
+      <div>j</div>
+    </header>
+    <nav>
+      <button onclick="gridview()" class="btn grid">Grid</button>
+      <button onclick="listview()" class="btn list">List</button>
+      <button class="btn search" >Search</button><input type="search" placeholder="search">
+
+    </nav>
+    <div id="Modal" class="modal">
+      <div class="modal-content">
+        
+
+        <div class="flex">
+          <div class="thumb" id="thumbnail" ></div>
+          <div class="content">
+            <p><b>Song Name:</b><span id="songname"></span></p>
+            <p><b>Album:</b><span id="album"></span></p>
+            <p><b>Music Director:</b><span id="dir"></span></p>
+            <p><b>Singer:</b><span id="singer"></span></p>
+            <p><b>Duration:</b><span id="duration"></span></p>
+            <p><b>Description:</b><span id="description"></span></p>
+          </div>
+          <div class="prev-next" id="previous"></div>
+      </div>
+    </div>
+  </div>
+
+    <div id="contain" class="container"></div>
+    <script src="./img_gallery.js"></script>
+  </body>
+</html>
